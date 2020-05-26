@@ -202,39 +202,3 @@ body {
 .grassType:hover {
     color: green;
 }
-
-.pokemonImage {
-    float: right;
-    border-radius: 16px;
-    margin: 32px;
-    width: 256px;
-    height:256px;
-}
-
-.gray {
-    color: gray;
-    display:inline;
-}
-.white {
-    color: white;
-    display:inline;
-}
-
-@media screen and (max-width: 600px) {
-    .pokemonImage {
-        float: initial;
-        margin: 16px auto;
-        display: block;
-    }
-}
-
-.statTable {
-    color: white;
-    border: 4px solid #52527a;background-color: #33334d;
-    border-collapse: collapse;
-    width: 384px;
-    margin: 16px auto;
-}
-.statTable td, th {
-    border: 4px solid #52527a;
-}
