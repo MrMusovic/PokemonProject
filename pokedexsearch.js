@@ -46,10 +46,10 @@ function clickButton() {
 026,Raichu,Electric,,485,60,90,55,90,80,110,1,False
 027,Sandshrew,Ground,,300,50,75,85,20,30,40,1,False
 028,Sandslash,Ground,,450,75,100,110,45,55,65,1,False
-029,Nidoran Female,Poison,,275,55,47,52,40,40,41,1,False
+029,Nidoran ♀,Poison,,275,55,47,52,40,40,41,1,False
 030,Nidorina,Poison,,365,70,62,67,55,55,56,1,False
 031,Nidoqueen,Poison,Ground,505,90,92,87,75,85,76,1,False
-032,Nidoran Male,Poison,,273,46,57,40,40,40,50,1,False
+032,Nidoran ♂,Poison,,273,46,57,40,40,40,50,1,False
 033,Nidorino,Poison,,365,61,72,57,55,55,65,1,False
 034,Nidoking,Poison,Ground,505,81,102,77,85,75,85,1,False
 035,Clefairy,Fairy,,323,70,45,48,60,65,35,1,False
