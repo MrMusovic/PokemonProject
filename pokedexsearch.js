@@ -530,6 +530,12 @@ function clickButton() {
             resultinfo.push(linetoread)
         }
     }
+    for (i=0; i<results.length; i++) {
+        if (results[i].toLowerCase() === searchbox.value.toLowerCase()) {
+            results = [results[i]];
+            break;
+        }
+    }
     switch (results.length) {
         case 0:
             name.textContent = "Not found"
