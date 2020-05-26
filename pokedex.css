@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body,
 html {
-
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -37,11 +39,17 @@ body {
 
 .menu-item {
     opacity: 0.3;
-
- }
+}
 
 .menu-item:hover {
     opacity: 1;
+}
+
+.menu-links {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: white;
 }
 
 /*hero Image change*/
@@ -193,4 +201,40 @@ body {
 
 .grassType:hover {
     color: green;
+}
+
+.pokemonImage {
+    float: right;
+    border-radius: 16px;
+    margin: 32px;
+    width: 256px;
+    height:256px;
+}
+
+.gray {
+    color: gray;
+    display:inline;
+}
+.white {
+    color: white;
+    display:inline;
+}
+
+@media screen and (max-width: 600px) {
+    .pokemonImage {
+        float: initial;
+        margin: 16px auto;
+        display: block;
+    }
+}
+
+.statTable {
+    color: white;
+    border: 4px solid #52527a;background-color: #33334d;
+    border-collapse: collapse;
+    width: 384px;
+    margin: 16px auto;
+}
+.statTable td, th {
+    border: 4px solid #52527a;
 }
