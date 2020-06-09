@@ -11,3 +11,6 @@ Within the JS we are storing all of the clickable elements as variables, adding 
 We would like to greatly simplify this code in order to increase responsiveness. 
 
 pokedex pals were here
+
+ignore all buttons that ask you what they do
+they are traps
