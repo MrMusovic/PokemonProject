@@ -1,6 +1,6 @@
 var searchbox = document.getElementById("search");
 var searchbutton = document.getElementById("searchbutton");
-var name = document.getElementById("pokeName");
+var name = document.getElementById("pokeName");  
 
 
 function clickButton() {
@@ -368,7 +368,7 @@ function clickButton() {
 348,Armaldo,Rock,Bug,495,75,125,100,70,80,45,3,False
 349,Feebas,Water,,200,20,15,20,10,55,80,3,False
 350,Milotic,Water,,540,95,60,79,100,125,81,3,False
-351,Castform,Normal,,420,70,70,70,70,70,70,3,False
+351,Castform Normal,Normal,,420,70,70,70,70,70,70,3,False
 352,Kecleon,Normal,,440,60,90,70,60,120,40,3,False
 353,Shuppet,Ghost,,295,44,75,35,63,33,45,3,False
 354,Banette,Ghost,,455,64,115,65,83,63,65,3,False
@@ -403,10 +403,10 @@ function clickButton() {
 383,Groudon,Ground,,670,100,150,140,100,90,90,3,True
 384,Rayquaza,Dragon,Flying,680,105,150,90,150,90,95,3,True
 385,Jirachi,Steel,Psychic,600,100,100,100,100,100,100,3,True
-386,DeoxysNormal Forme,Psychic,,600,50,150,50,150,50,150,3,True
-386,DeoxysAttack Forme,Psychic,,600,50,180,20,180,20,150,3,True
-386,DeoxysDefense Forme,Psychic,,600,50,70,160,70,160,90,3,True
-386,DeoxysSpeed Forme,Psychic,,600,50,95,90,95,90,180,3,True
+386,Deoxys Normal,Psychic,,600,50,150,50,150,50,150,3,True
+386,Deoxys Attack,Psychic,,600,50,180,20,180,20,150,3,True
+386,Deoxys Defense,Psychic,,600,50,70,160,70,160,90,3,True
+386,Deoxys Speed,Psychic,,600,50,95,90,95,90,180,3,True
 387,Turtwig,Grass,,318,55,68,64,45,55,31,4,False
 388,Grotle,Grass,,405,75,89,85,55,65,36,4,False
 389,Torterra,Grass,Ground,525,95,109,105,75,85,56,4,False
@@ -433,9 +433,9 @@ function clickButton() {
 410,Shieldon,Rock,Steel,350,30,42,118,42,88,30,4,False
 411,Bastiodon,Rock,Steel,495,60,52,168,47,138,30,4,False
 412,Burmy,Bug,,224,40,29,45,29,45,36,4,False
-413,WormadamPlant Cloak,Bug,Grass,424,60,59,85,79,105,36,4,False
-413,WormadamSandy Cloak,Bug,Ground,424,60,79,105,59,85,36,4,False
-413,WormadamTrash Cloak,Bug,Steel,424,60,69,95,69,95,36,4,False
+413,Wormadam,Bug,Grass,424,60,59,85,79,105,36,4,False
+413,Wormadam Sandy,Bug,Ground,424,60,79,105,59,85,36,4,False
+413,Wormadam Trash,Bug,Steel,424,60,69,95,69,95,36,4,False
 414,Mothim,Bug,Flying,424,70,94,50,94,50,66,4,False
 415,Combee,Bug,Flying,244,30,30,42,30,42,70,4,False
 416,Vespiquen,Bug,Flying,474,70,80,102,80,102,40,4,False
@@ -514,8 +514,8 @@ function clickButton() {
 484,Palkia,Water,Dragon,680,90,120,100,150,120,100,4,True
 485,Heatran,Fire,Steel,600,91,90,106,130,106,77,4,True
 486,Regigigas,Normal,,670,110,160,110,80,110,100,4,True
-487,GiratinaAltered Forme,Ghost,Dragon,680,150,100,120,100,120,90,4,True
-487,GiratinaOrigin Forme,Ghost,Dragon,680,150,120,100,120,100,90,4,True
+487,Giratina Altered,Ghost,Dragon,680,150,100,120,100,120,90,4,True
+487,Giratina Origin,Ghost,Dragon,680,150,120,100,120,100,90,4,True
 488,Cresselia,Psychic,,600,120,70,120,75,130,85,4,False
 489,Phione,Water,,480,80,80,80,80,80,80,4,False
 490,Manaphy,Water,,600,100,100,100,100,100,100,4,False
