@@ -183,14 +183,11 @@ body {
 
 .gridImages:hover {
     opacity: 1;
+    color: green; 
 }
 
 .pokeImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.grassType:hover {
-    color: green;
 }
