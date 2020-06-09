@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header></header>
+      <hr>
+      <h1>Legendary Birds</h1>
+    </header>
+    <section>
+      <h2>Articuno</h2>
+      <img src="Pokemon/Birds/Articuno.png">
+      <body>Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.</body>
+    </section>
+    <section>
+      <h2>Zapdos</h2>
+      <img src="Pokemon/Birds/Zapdos.png">
+      <body>Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.</body>
+    </section>
+    <section>
+      <h2>Moltres</h2>
+      <img src="Pokemon/Birds/Moltres.png">
+      <body>Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.</body>
+    </section>
+    <footer>
+      <h3>Pokemon</h3>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </footer>
+  </body>
+</html>
