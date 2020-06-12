@@ -1,7 +1,7 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The Modal (background) */
-.modal {
+.modal, .modal1 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -15,7 +15,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 /* Modal Content */
-.modal-content {
+.modal-content, .modal-content1 {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -36,4 +36,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.invisible {
+  background-color: transparent;
+  outline-color: transparent;
+  border: none;
 }
