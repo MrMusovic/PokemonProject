@@ -6,6 +6,7 @@ var name = document.getElementById("pokeName");
 function clickButton() {
     var searchbox = document.getElementById("search");
     var name = document.getElementById("pokeName");
+
     var number = document.getElementById("number");
     var pokemonImage = document.getElementById("pokemonImage");
     var type = document.getElementById("types");
@@ -602,3 +603,5 @@ function clickButton() {
 }
 
 searchbutton.onclick = clickButton;
+function clickButton() {
+    var name = document.getElementById("Random")

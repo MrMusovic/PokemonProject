@@ -202,3 +202,13 @@ body {
 .grassType:hover {
     color: green;
 }
+.menu-links:hover {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color:black;
+    background-color: royalblue;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
