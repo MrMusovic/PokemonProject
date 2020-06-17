@@ -20,8 +20,8 @@
       <body>Height: 5' 03" --- Category: Ele
     </section>
     <section>
-      <h2>Moltres</h2>
-      <img src="Pokemon/Birds/Moltres.png">
+      const fire = document.getElementById("menu-item-fire");<h2>Moltres</h2>
+      const fireType = document.querySelectorAll(".fireType");<img src="Pokemon/Birds/Moltres.png">
       <body>Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.</body>
     </section>
     <footer>
