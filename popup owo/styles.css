@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.35); /* Black w/ opacity */
+  position: absolute;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+  border-color: transparent;
+}
+
+.titlename {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.goldentext {
+  color: gold;
+  font-weight: bold;
+  text-shadow: -1px 0.5px black;
+}
+
+.rainbow {
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.textshadow {
+  text-shadow: -1px 0.5px black;
+}
+.red {
+  color: red;
+}
+.orange {
+  color: orange;
+}
+.yellow {
+  color: yellow;
+}
+.greenyellow {
+  color: greenyellow;
+}
+.green {
+  color: green;
+}
+.aqua {
+  color: aquamarine;
+}
+.blue {
+  color: blue;
+}
+.blueviolet {
+  color: blueviolet;
+}
+.violet {
+  color: violet;
+}
+.pink {
+  color: palevioletred;
+}
+
+/*Types of Pokemon (eg grass, fire, water, dark)*/
+.normaltype {
+  background-color: rgba(60,168,120,0.9)
+}
+.firetype {
+  background-color: rgba(240,128,48,0.9)
+}
+.fightingtype {
+  background-color: rgba(192,48,40,0.9)
+}
+.watertype {
+  background-color: rgba(104,144,240,0.9)
+}
+.flyingtype {
+  background-color: rgba(168,144,240,0.9)
+}
+.grasstype {
+  background-color: rgba(120,200,80,0.9)
+}
+.poisontype {
+  background-color: rgba(160,64,160,0.9)
+}
+.electrictype {
+  background-color: rgba(248,208,48,0.9)
+}
+.groundtype {
+  background-color: rgba(224,192,104,0.9)
+}
+.psychictype {
+  background-color: rgba(248,88,136,0.9)
+}
+.rocktype {
+  background-color: rgba(184,160,56,0.9)
+}
+.icetype {
+  background-color: rgba(152,216,216,0.9)
+}
+.bugtype {
+  background-color: rgba(168,184,32,0.9)
+}
+.dragontype {
+  background-color: rgba(112,56,248,0.9)
+}
+.ghosttype {
+  background-color: rgba(112,88,152,0.9)
+}
+.darktype {
+  background-color: rgba(112,88,72,0.9)
+}
+.steeltype {
+  background-color: rgba(184,184,208,0.9)
+}
+.fairytype {
+  background-color: rgba(238,153,172,0.9)
+}
+.unknowntype {
+  background-color: rgba(104,160,144,0.9)
+}
+.mega {
+  background-color: rgba(15,15,15,0.8);
+  color: white;
+}
