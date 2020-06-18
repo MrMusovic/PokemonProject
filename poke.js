@@ -167,9 +167,7 @@ psychicFunction = function () {
 }
 
 rockFunction = function () {
-    hero.className = "rock"
-    mainMenu.style.borderBottomColor = "grey";
-    clearPokemon();
+    hero.className = "rock"    clearPokemon();
     for (let i=0; i<rockType.length; i++)
         rockType[i].style.display = "block";    
 }
