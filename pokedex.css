@@ -282,5 +282,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .total {
   background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
+  background-clip: border-box;
   -webkit-text-fill-color: transparent;
 }
