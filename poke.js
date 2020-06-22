@@ -231,3 +231,9 @@ water.addEventListener("mouseenter", waterFunction);
 
 
 //fire.addEventListener("mouseenter", changeFire(event) event.hero.style.color = "purple";
+
+
+
+//This is Our Varibles Below:
+
+Health1=
