@@ -571,8 +571,8 @@ var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Spe
 552,Krokorok,Ground,Dark,351,60,82,45,45,45,74,5,False
 553,Krookodile,Ground,Dark,519,95,117,80,65,70,92,5,False
 554,Darumaka,Fire,,315,70,90,45,15,45,50,5,False
-555,DarmanitanStandard Mode,Fire,,480,105,140,55,30,55,95,5,False
-555,DarmanitanZen Mode,Fire,Psychic,540,105,30,105,140,105,55,5,False
+555,Darmanitan Standard,Fire,,480,105,140,55,30,55,95,5,False
+555,Darmanitan Zen,Fire,Psychic,540,105,30,105,140,105,55,5,False
 556,Maractus,Grass,,461,75,86,67,106,67,60,5,False
 557,Dwebble,Bug,Rock,325,50,65,85,35,35,55,5,False
 558,Crustle,Bug,Rock,475,70,95,125,65,75,45,5,False
@@ -658,21 +658,21 @@ var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Spe
 638,Cobalion,Steel,Fighting,580,91,90,129,90,72,108,5,True
 639,Terrakion,Rock,Fighting,580,91,129,90,72,90,108,5,True
 640,Virizion,Grass,Fighting,580,91,90,72,90,129,108,5,True
-641,TornadusIncarnate Forme,Flying,,580,79,115,70,125,80,111,5,True
-641,TornadusTherian Forme,Flying,,580,79,100,80,110,90,121,5,True
-642,ThundurusIncarnate Forme,Electric,Flying,580,79,115,70,125,80,111,5,True
-642,ThundurusTherian Forme,Electric,Flying,580,79,105,70,145,80,101,5,True
+641,Tornadus Incarnate,Flying,,580,79,115,70,125,80,111,5,True
+641,Tornadus Therian,Flying,,580,79,100,80,110,90,121,5,True
+642,Thundurus Incarnate,Electric,Flying,580,79,115,70,125,80,111,5,True
+642,Thundurus Therian,Electric,Flying,580,79,105,70,145,80,101,5,True
 643,Reshiram,Dragon,Fire,680,100,120,100,150,120,90,5,True
 644,Zekrom,Dragon,Electric,680,100,150,120,120,100,90,5,True
-645,LandorusIncarnate Forme,Ground,Flying,600,89,125,90,115,80,101,5,True
-645,LandorusTherian Forme,Ground,Flying,600,89,145,90,105,80,91,5,True
+645,Landorus Incarnate,Ground,Flying,600,89,125,90,115,80,101,5,True
+645,Landorus Therian,Ground,Flying,600,89,145,90,105,80,91,5,True
 646,Kyurem,Dragon,Ice,660,125,130,90,130,90,95,5,True
-646,KyuremBlack Kyurem,Dragon,Ice,700,125,170,100,120,90,95,5,True
-646,KyuremWhite Kyurem,Dragon,Ice,700,125,120,90,170,100,95,5,True
-647,KeldeoOrdinary Forme,Water,Fighting,580,91,72,90,129,90,108,5,False
-647,KeldeoResolute Forme,Water,Fighting,580,91,72,90,129,90,108,5,False
-648,MeloettaAria Forme,Normal,Psychic,600,100,77,77,128,128,90,5,False
-648,MeloettaPirouette Forme,Normal,Fighting,600,100,128,90,77,77,128,5,False
+646,Kyurem Black,Dragon,Ice,700,125,170,100,120,90,95,5,True
+646,Kyurem White,Dragon,Ice,700,125,120,90,170,100,95,5,True
+647,Keldeo Ordinary,Water,Fighting,580,91,72,90,129,90,108,5,False
+647,Keldeo Resolute,Water,Fighting,580,91,72,90,129,90,108,5,False
+648,Meloetta Aria,Normal,Psychic,600,100,77,77,128,128,90,5,False
+648,Meloetta Pirouette,Normal,Fighting,600,100,128,90,77,77,128,5,False
 649,Genesect,Bug,Steel,600,71,120,95,120,95,99,5,False`.split('\n')
 
 function clickButton() {
@@ -766,7 +766,6 @@ function clickButton() {
                 pokemonImage.src = "images/POKEMON/blank.ico";
                 pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
                 type1.textContent = "...";
-                type1.style.removeProperty();
                 type2.textContent = "";
                 typecommas.textContent = "";
                 statTotal.textContent = "...";
@@ -897,3 +896,13 @@ function bidoofButton() {
 
 searchbutton.onclick = clickButton;
 bidoofbutton.onclick = bidoofButton;
+
+searchbox.addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      // Cancel the default action, if needed
+      event.preventDefault();
+      // Trigger the button element with a click
+      searchbutton.click();
+    }
+  });
