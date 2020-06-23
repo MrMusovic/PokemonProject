@@ -9,19 +9,19 @@
     </header>
     <section>
       <h2>Articuno</h2>
-      <img src="Pokemon/Birds/Articuno.png">
+      <img src="144 Articuno.ico">
       <body>Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.</body>
       <body> Height: 5' 07" --- Category: Freeze --- Weight: 122.1 lbs --- Ability: Pressure --- Gender: Unknown</body>
     </section>
     <section>
       <h2>Zapdos</h2>
-      <img src="Pokemon/Birds/Zapdos.png">
+      <img src="145 Zapdos.ico">
       <body>Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.</body>
       <body>Height: 5' 03" --- Category: Electric --- Weight: 116.0 lbs --- Ability: Pressure --- Gender: Unknown</body>
     </section>
     <section>
       <h2>Moltres</h2>
-      <img src="Pokemon/Birds/Moltres.png">
+      <img src="146 Moltres.ico">
       <body>Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.</body>
       <body>Height: 6' 07" --- Category: Flame --- Weight 132.3 lbs --- Ability: Pressure --- Gender: Unknown</body>
     </section>
