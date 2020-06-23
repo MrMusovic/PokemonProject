@@ -516,7 +516,9 @@ function clickButton() {
 
     var number = document.getElementById("number");
     var pokemonImage = document.getElementById("pokemonImage");
-    var type = document.getElementById("types");
+    var type1 = document.getElementById("type1");
+    var typecommas = document.getElementById("typecommas");
+    var type2 = document.getElementById("type2");
     var statTotal = document.getElementById("statTotal");
     var statHP = document.getElementById("statHP");
     var statAttack = document.getElementById("statAttack");
@@ -545,7 +547,10 @@ function clickButton() {
             number.textContent = "#N/A"
             pokemonImage.src = "images/POKEMON/blank.ico";
             pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
-            type.textContent = "...";
+            type1.textContent = "...";
+            type1.style.removeProperty();
+            type2.textContent = "";
+            typecommas.textContent = "";
             statTotal.textContent = "...";
             statHP.textContent = "...";
             statAttack.textContent = "...";
@@ -564,9 +569,15 @@ function clickButton() {
             statSpAttack.textContent = resultinfo[0][8];
             statSpDefense.textContent = resultinfo[0][9];
             if (resultinfo[0][3] === "") {
-                type.textContent = resultinfo[0][2];
+                type1.textContent = resultinfo[0][2];
+                type1.style.removeProperty();
+                type2.textContent = "";
+                typecommas.textContent = "";
             } else {
-                type.textContent = resultinfo[0][2] + ", " + resultinfo[0][3];
+                type1.textContent = resultinfo[0][2];
+                type1.style.removeProperty();
+                type2.textContent = resultinfo[0][3];
+                typecommas.textContent = ", ";
             }
             if (resultinfo[0][12] == "False") {
                 pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
@@ -580,7 +591,10 @@ function clickButton() {
                 number.textContent = "#..."
                 pokemonImage.src = "images/POKEMON/blank.ico";
                 pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
-                type.textContent = "..."
+                type1.textContent = "...";
+                type1.style.removeProperty();
+                type2.textContent = "";
+                typecommas.textContent = "";
                 statTotal.textContent = "...";
                 statHP.textContent = "...";
                 statAttack.textContent = "...";
@@ -592,7 +606,10 @@ function clickButton() {
                 number.textContent = "#..."
                 pokemonImage.src = "images/POKEMON/blank.ico";
                 pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
-                type.textContent = "..."
+                type1.textContent = "...";
+                type1.style.removeProperty();
+                type2.textContent = "";
+                typecommas.textContent = "";
                 statTotal.textContent = "...";
                 statHP.textContent = "...";
                 statAttack.textContent = "...";
