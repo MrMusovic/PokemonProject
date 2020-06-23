@@ -16,7 +16,7 @@
     background-color: rgba(40, 40, 40, 1);
     height: 15%;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Split {
@@ -38,20 +38,27 @@
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color:rgba(40, 40, 40, 1);
+    text-align: center;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color: rgba(40, 40, 40, 1);
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color:  rgba(40, 40, 40, 1);
+    font-size: medium;
+    text-decoration: none;
+}
+
+button {
+    color:rgba(40, 40, 40, 1);
 }
 
