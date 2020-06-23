@@ -1,7 +1,7 @@
 var searchbox = document.getElementById("search");
 var searchbutton = document.getElementById("searchbutton");
 var name = document.getElementById("pokeName");  
-var randombutton = document.getElementById("randombutton");
+var bidoofbutton = document.getElementById("bidoofbutton");
 
 var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary
 001,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,False
@@ -509,6 +509,7 @@ var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Spe
 492,Shaymin Land,Grass,,600,100,100,100,100,100,100,4,True
 492,Shaymin Sky,Grass,Flying,600,100,103,75,120,75,127,4,True
 493,Arceus,Normal,,720,120,120,120,120,120,120,4,True`.split('\n')
+
 function clickButton() {
     var searchbox = document.getElementById("search");
     var name = document.getElementById("pokeName");
@@ -603,7 +604,7 @@ function clickButton() {
     }
 }
 
-function randomButton() {
+function bidoofButton() {
     var searchbox = document.getElementById("search");
     var name = document.getElementById("pokeName");
 
@@ -698,4 +699,4 @@ function randomButton() {
 }
 
 searchbutton.onclick = clickButton;
-randombutton.onclick = randomButton;
+bidoofbutton.onclick = bidoofButton;
