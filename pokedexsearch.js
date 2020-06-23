@@ -1,24 +1,9 @@
 var searchbox = document.getElementById("search");
 var searchbutton = document.getElementById("searchbutton");
 var name = document.getElementById("pokeName");  
+var randombutton = document.getElementById("randombutton");
 
-
-function clickButton() {
-    var searchbox = document.getElementById("search");
-    var name = document.getElementById("pokeName");
-
-    var number = document.getElementById("number");
-    var pokemonImage = document.getElementById("pokemonImage");
-    var type = document.getElementById("types");
-    var statTotal = document.getElementById("statTotal");
-    var statHP = document.getElementById("statHP");
-    var statAttack = document.getElementById("statAttack");
-    var statDefense = document.getElementById("statDefense");
-    var statSpAttack = document.getElementById("statSpAttack");
-    var statSpDefense = document.getElementById("statSpDefense");
-    var results = [];
-    var resultinfo = [];
-    var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary
+var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary
 001,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,False
 002,Ivysaur,Grass,Poison,405,60,62,63,80,80,60,1,False
 003,Venusaur,Grass,Poison,525,80,82,83,100,100,80,1,False
@@ -524,6 +509,22 @@ function clickButton() {
 492,Shaymin Land,Grass,,600,100,100,100,100,100,100,4,True
 492,Shaymin Sky,Grass,Flying,600,100,103,75,120,75,127,4,True
 493,Arceus,Normal,,720,120,120,120,120,120,120,4,True`.split('\n')
+function clickButton() {
+    var searchbox = document.getElementById("search");
+    var name = document.getElementById("pokeName");
+
+    var number = document.getElementById("number");
+    var pokemonImage = document.getElementById("pokemonImage");
+    var type = document.getElementById("types");
+    var statTotal = document.getElementById("statTotal");
+    var statHP = document.getElementById("statHP");
+    var statAttack = document.getElementById("statAttack");
+    var statDefense = document.getElementById("statDefense");
+    var statSpAttack = document.getElementById("statSpAttack");
+    var statSpDefense = document.getElementById("statSpDefense");
+    var results = [];
+    var resultinfo = [];
+    
     for (i=0; i<database.length; i++) {
         linetoread = database[i].split(',')
         if (linetoread[1].toLowerCase().indexOf(searchbox.value.toLowerCase()) != -1) {
@@ -602,6 +603,99 @@ function clickButton() {
     }
 }
 
+function randomButton() {
+    var searchbox = document.getElementById("search");
+    var name = document.getElementById("pokeName");
+
+    var number = document.getElementById("number");
+    var pokemonImage = document.getElementById("pokemonImage");
+    var type = document.getElementById("types");
+    var statTotal = document.getElementById("statTotal");
+    var statHP = document.getElementById("statHP");
+    var statAttack = document.getElementById("statAttack");
+    var statDefense = document.getElementById("statDefense");
+    var statSpAttack = document.getElementById("statSpAttack");
+    var statSpDefense = document.getElementById("statSpDefense");
+    var results = [];
+    var resultinfo = [];
+    
+    for (i=0; i<database.length; i++) {
+        linetoread = database[i].split(',')
+        if (linetoread[1].toLowerCase().indexOf("bidoof") != -1) {
+            results.push(linetoread[1])
+            resultinfo.push(linetoread)
+        }
+    }
+    for (i=0; i<results.length; i++) {
+        if (results[i].toLowerCase() === "bidoof") {
+            results = [results[i]];
+            break;
+        }
+    }
+    switch (results.length) {
+        case 0:
+            name.textContent = "Not found"
+            number.textContent = "#N/A"
+            pokemonImage.src = "images/POKEMON/blank.ico";
+            pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
+            type.textContent = "...";
+            statTotal.textContent = "...";
+            statHP.textContent = "...";
+            statAttack.textContent = "...";
+            statDefense.textContent = "...";
+            statSpAttack.textContent = "...";
+            statSpDefense.textContent = "...";
+            break;
+        case 1:
+            name.textContent = results
+            number.textContent = "#" + resultinfo[0][0]
+            pokemonImage.src = "images/POKEMON/"+resultinfo[0][0]+" "+results+".ico";
+            statTotal.textContent = resultinfo[0][4];
+            statHP.textContent = resultinfo[0][5];
+            statAttack.textContent = resultinfo[0][6];
+            statDefense.textContent = resultinfo[0][7];
+            statSpAttack.textContent = resultinfo[0][8];
+            statSpDefense.textContent = resultinfo[0][9];
+            if (resultinfo[0][3] === "") {
+                type.textContent = resultinfo[0][2];
+            } else {
+                type.textContent = resultinfo[0][2] + ", " + resultinfo[0][3];
+            }
+            if (resultinfo[0][12] == "False") {
+                pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
+            } else {
+                pokemonImage.style = "background-color:#666600;border: 4px solid #999900;"
+            }
+            break;
+        default:
+            if (results.length < 5) {
+                name.textContent = results.join(', ');
+                number.textContent = "#..."
+                pokemonImage.src = "images/POKEMON/blank.ico";
+                pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
+                type.textContent = "..."
+                statTotal.textContent = "...";
+                statHP.textContent = "...";
+                statAttack.textContent = "...";
+                statDefense.textContent = "...";
+                statSpAttack.textContent = "...";
+                statSpDefense.textContent = "...";
+            } else {
+                name.textContent = results.length + " results"
+                number.textContent = "#..."
+                pokemonImage.src = "images/POKEMON/blank.ico";
+                pokemonImage.style = "background-color:#33334d;border: 4px solid #52527a;"
+                type.textContent = "..."
+                statTotal.textContent = "...";
+                statHP.textContent = "...";
+                statAttack.textContent = "...";
+                statDefense.textContent = "...";
+                statSpAttack.textContent = "...";
+                statSpDefense.textContent = "...";
+            }
+
+    }
+}
+
 searchbutton.onclick = clickButton;
-function clickButton() {
-    var name = document.getElementById("Random")
+randombutton.onclick = randomButton;
