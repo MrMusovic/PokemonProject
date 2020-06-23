@@ -253,3 +253,24 @@ font-weight: bold;
 #bidoofbutton {
     opacity: 0.1;
 }
+button {
+color: cornsilk;
+background-color: crimson;
+outline: thin;
+border-radius: 20px 20px 20px 20px;
+border-bottom: 4px solid white;    
+border-top: 4px solid red;
+border-left: 5px solid white;
+border-right: 5px solid red;
+
+}
+input{
+color: white;
+background-color: rgb(66, 66, 66);
+border-bottom: 8px solid white;    
+border-top: 8px solid red;
+border-left: 9px solid white;
+border-right: 9px solid red;
+border-radius: 15px 15px 15px 15px;
+
+}
