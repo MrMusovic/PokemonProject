@@ -278,3 +278,20 @@ border-right: 9px solid red;
 border-radius: 15px 15px 15px 15px;
 
 }
+input:hover{
+    color:red;
+    border-top: 8px solid white;    
+    border-bottom: 8px solid red;
+    border-right: 9px solid white;
+    border-left: 9px solid red;
+
+}
+button:hover{
+    color:red;
+    border-top: 4px solid white;    
+    border-bottom: 4px solid red;
+    border-right: 5px solid white;
+    border-left: 5px solid red;
+    color: white;
+
+}
