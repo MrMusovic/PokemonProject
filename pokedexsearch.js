@@ -665,6 +665,12 @@ function bidoofButton() {
             statSpDefense.textContent = "...";
             break;
         case 1:
+            var rickroll = document.createElement("IFRAME");
+            rickroll.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+            rickroll.width = 420;
+            rickroll.height = 315;
+    
+            document.getElementById("pokemonimagecontainer").appendChild(rickroll);
             name.textContent = results
             number.textContent = "#" + resultinfo[0][0]
             pokemonImage.src = "images/POKEMON/"+resultinfo[0][0]+" "+results+".ico";
@@ -684,6 +690,7 @@ function bidoofButton() {
             } else {
                 pokemonImage.style = "background-color:#666600;border: 4px solid #999900;"
             }
+            this.remove();
             break;
         default:
             if (results.length < 5) {
@@ -711,8 +718,8 @@ function bidoofButton() {
                 statSpAttack.textContent = "...";
                 statSpDefense.textContent = "...";
             }
-
-    }
+            break;
+        }
 }
 
 searchbutton.onclick = clickButton;

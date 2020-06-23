@@ -249,3 +249,7 @@ font-weight: bold;
     background-color: darkblue;
   
 }
+
+#bidoofbutton {
+    opacity: 0.1;
+}
