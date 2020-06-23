@@ -895,7 +895,6 @@ function bidoofButton() {
 }
 
 searchbutton.onclick = clickButton;
-bidoofbutton.onclick = bidoofButton;
 
 searchbox.addEventListener("keyup", function(event) {
     // Number 13 is the "Enter" key on the keyboard
