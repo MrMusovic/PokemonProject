@@ -254,6 +254,8 @@ font-weight: bold;
     opacity: 0.1;
 }
 button {
+margin: 7px;
+padding: 5px;
 color: cornsilk;
 background-color: crimson;
 outline: thin;
@@ -265,6 +267,8 @@ border-right: 5px solid red;
 
 }
 input{
+margin: 6px;
+padding: 5px;
 color: white;
 background-color: rgb(66, 66, 66);
 border-bottom: 8px solid white;    
