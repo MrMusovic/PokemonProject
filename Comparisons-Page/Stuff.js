@@ -11,12 +11,25 @@ clearStats = function() {
     var StartSpeed = 0;
     var StartSAttack = 0;
     var StartSDefence = 0;
-    var StartType = 0;
+    var StartType = "";
+    var StartHp2= 0;
+    var StartAttack2 = 0;
+    var StartDefense2 = 0;
+    var StartSpeed2 = 0;
+    var StartSAttack2 = 0;
+    var StartSDefence2 = 0;
+    var StartTyp2e = "";
+
+
     }
 
-    <h2> Attack: </h2>
-            <h2> Defense: </h2>
-            <h2> Speed: </h2>
-            <h2> Special Attack: </h2>
-            <h2> Special Defense: </h2> <h3> </h3>
-            <h2> Type: </h2> <img src = ""> 
+    BulbaurStats1 = function() {
+        var StartHp= 45;
+        var StartAttack = 49;
+        var StartDefense = 49;
+        var StartSpeed = 45;
+        var StartSAttack = 65;
+        var StartSDefence = 65;
+        var StartType = "Bug";
+    }
+
