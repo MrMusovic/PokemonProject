@@ -735,10 +735,7 @@ var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Spe
 707,Klefki,Steel,Fairy,470,57,80,91,80,87,75,6,False
 708,Phantump,Ghost,Grass,309,43,70,48,50,60,38,6,False
 709,Trevenant,Ghost,Grass,474,85,110,76,65,82,56,6,False
-710,PumpkabooAverage Size,Ghost,Grass,335,49,66,70,44,55,51,6,False
-710,PumpkabooSmall Size,Ghost,Grass,335,44,66,70,44,55,56,6,False
-710,PumpkabooLarge Size,Ghost,Grass,335,54,66,70,44,55,46,6,False
-710,PumpkabooSuper Size,Ghost,Grass,335,59,66,70,44,55,41,6,False
+710,Pumpkaboo,Ghost,Grass,335,49,66,70,44,55,51,6,False
 711,Gourgeist,Ghost,Grass,494,65,90,122,58,75,84,6,False
 712,Bergmite,Ice,,304,55,69,85,32,35,28,6,False
 713,Avalugg,Ice,,514,95,117,184,44,46,28,6,False
