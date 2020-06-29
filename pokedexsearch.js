@@ -705,8 +705,7 @@ var database = `#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Spe
 678,Meowstic,Psychic,,466,74,48,76,83,81,104,6,False
 679,Honedge,Steel,Ghost,325,45,80,100,35,37,28,6,False
 680,Doublade,Steel,Ghost,448,59,110,150,45,49,35,6,False
-681,AegislashBlade Forme,Steel,Ghost,520,60,150,50,150,50,60,6,False
-681,AegislashShield Forme,Steel,Ghost,520,60,50,150,50,150,60,6,False
+681,Aegislash,Steel,Ghost,520,60,150,50,150,50,60,6,False
 682,Spritzee,Fairy,,341,78,52,60,63,65,23,6,False
 683,Aromatisse,Fairy,,462,101,72,72,99,89,29,6,False
 684,Swirlix,Fairy,,341,62,48,66,59,57,49,6,False
