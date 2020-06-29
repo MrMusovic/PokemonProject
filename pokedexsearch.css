@@ -209,6 +209,7 @@ body {
     height:256px;
 }
 
+
 .gray {
     color: gray;
     display:inline;
@@ -254,6 +255,8 @@ font-weight: bold;
     opacity: 0.1;
 }
 button {
+margin: 7px;
+padding: 5px;
 color: cornsilk;
 background-color: crimson;
 outline: thin;
@@ -262,9 +265,12 @@ border-bottom: 4px solid white;
 border-top: 4px solid red;
 border-left: 5px solid white;
 border-right: 5px solid red;
+font-size: medium;
 
 }
 input{
+margin: 6px;
+padding: 5px;
 color: white;
 background-color: rgb(66, 66, 66);
 border-bottom: 8px solid white;    
@@ -272,5 +278,23 @@ border-top: 8px solid red;
 border-left: 9px solid white;
 border-right: 9px solid red;
 border-radius: 15px 15px 15px 15px;
+
+}
+input:hover{
+    color:red;
+    border-top: 8px solid white;    
+    border-bottom: 8px solid red;
+    border-right: 9px solid white;
+    border-left: 9px solid red;
+
+}
+button:hover{
+    color:red;
+    border-top: 4px solid white;    
+    border-bottom: 4px solid red;
+    border-right: 5px solid white;
+    border-left: 5px solid red;
+    background-color: white;
+    font-size: medium;
 
 }
