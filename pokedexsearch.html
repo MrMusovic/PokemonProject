@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="pokedexsearch.css" rel="stylesheet" type="text/css">
+    <link class = "dynamic-favicon" rel="shortcut icon" type="image/ico" href="pokeball.ico">
+    <title>Pokemon Search v1.0</title>
+</head>
+<body>
+    <div class="mainMenuContainer">
+        <ul id=primary-menu class="nav-menu">
+            
+            <li id="menu-item-home" class="menu-links"><a class="menu-links" href="index.html">Home</a></li>
+
+        </ul>
+    </div>
+    <img id = "pokemonImage" class="pokemonImage" src="images/POKEMON/blank.ico" style="background-color:#33334d;border: 4px solid #52527a;">
+    <br>
+    <div style="margin:32px;" class ="searchInput"><input id="search"><button id="searchbutton">Search</button></div>
+    <h1 style="padding:16px;"><span id="number" class="gray">#...</span>  <p id="pokeName" class="white">...</p></h1>
+    <h1 style="padding:16px;" class="gray">Type: <span id="type1">...</span><span id="typecommas"></span><span id="type2"></span></h1>
+    <table class = "statTable">
+        <tr>
+            <th>Stat</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td id="statTotal">...</td>
+        </tr>
+        <tr>
+            <td>HP</td>
+            <td id="statHP">...</td>
+        </tr>
+        <tr>
+            <td>Attack</td>
+            <td id="statAttack">...</td>
+        </tr>
+        <tr>
+            <td>Defense</td>
+            <td id="statDefense">...</td>
+        </tr>
+        <tr>
+            <td>Sp. Attack</td>
+            <td id="statSpAttack">...</td>
+        </tr>
+        <tr>
+            <td>Sp. Defense</td>
+            <td id="statSpDefense">...</td>
+        </tr>
+    </table>
+</body>
+
+<script src="pokedexsearch.js"> </script>
+</html>
