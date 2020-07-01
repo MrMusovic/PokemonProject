@@ -1,0 +1,150 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+table {
+    width:10%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.hp {
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+}
+
+.attack {
+    border: 1px solid orange;
+    text-align: left;
+    padding: 8px;
+} 
+
+.defense {
+    border: 1px solid yellow;
+    text-align: left;
+    padding: 8px;
+} 
+
+.spattack {
+    border: 1px solid dodgerblue;
+    text-align: left;
+    padding: 8px;
+}
+
+.spdefense {
+    border: 1px solid limegreen;
+    text-align: left;
+    padding: 8px;
+} 
+
+.speed {
+    border: 1px solid magenta;
+    text-align: left;
+    padding: 8px;
+}
+
+.bug {
+    background-color: greenyellow;
+}
+
+.dark {
+    background-image: url("images/hero/dark.jpg");
+}
+
+.dragon {
+    background-image: url("images/hero/dragon.jpg");
+}
+
+.electric {
+    background-color: yellow;
+}
+
+.fairy {
+    background-color: pink;
+}
+
+.fighting {
+    background-color: royalblue;
+}
+
+.fire {
+    background-image: url("images/hero/fire.jpg");
+}
+
+.flying {
+    background-color: sandybrown;
+
+}
+.ghost {
+    background-image: url("images/hero/ghost.jpg");
+}
+
+.grass {
+    background-image: url("images/hero/grass.jpg");
+
+}
+
+.ground {
+    background-image: url("images/hero/ground.jpg");
+}
+
+.ice {
+    background-color: aqua;
+}
+
+.normal {
+    background-image: url("images/hero/normal.jpg");
+
+}
+
+.poison {
+    background-color: purple;
+
+}
+.psychic {
+    background-image: hotpink;
+}
+
+.rock {
+    background-color: gray;
+
+}
+
+.steel {
+    background-color: grey;
+
+}
+
+.water {
+    background-image: url("images/hero/water.jpg");
+}
